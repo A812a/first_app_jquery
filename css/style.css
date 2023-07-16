@@ -1,0 +1,152 @@
+#home
+{
+    background-image: url(./../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+#home .layer
+{
+    background-color: rgba(255,0,0,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#home h1
+{
+    font-size: 58px;
+}
+
+#home .containerBox
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 999;
+    font-size: 25px;   
+}
+
+.containerBox #control
+{
+    cursor: pointer;
+}
+
+#home #linksBox
+{
+    background-color: rgb(65,70,88);
+    width: 250px;
+    height: 100vh;
+} 
+
+#linksBox li
+{
+    padding: 0 0 0 20px ;
+    margin: 20px 0;
+}
+
+#linksBox li a
+{
+    transition: 0.4s;
+}
+
+#linksBox li a:hover
+{
+    color: #f33;
+}
+
+#linksBox #icon
+{
+    cursor: pointer;
+    transition: 0.4s;
+    position: relative;
+    left: 85%;
+    top: 20px;
+}
+
+#linksBox #icon:hover
+{
+    color: #f33;
+}
+
+#linksBox a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.singer h2
+{
+    background-color: rgb(230,129,132);
+    cursor: pointer;
+}
+
+.singer p
+{
+    background-color: rgb(204,204,204);
+    display: none;
+}
+
+.section3
+{
+    background-image: url(./../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255,0,0,0.3);
+    overflow: auto;
+    margin-bottom: 100px;
+}
+
+.section3 .layer2
+{
+    background-color: rgba(255,0,0,0.3);
+    padding: 100px 0;
+}
+
+.section3 .layer2 p
+{
+    color: white;
+    font-size: 27px;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+.section3 .layer2 p:hover
+{
+    color: black;
+    background-color: white;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.inputName,.inputEmail,.message
+{
+    border-radius: 0;
+}
+
+.btn
+{
+    border-radius: 0;    
+}
+
+.section4
+{
+    padding: 30px 0;
+}
+
+.color
+{
+    color: red;
+}
